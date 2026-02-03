@@ -19,25 +19,37 @@ Shadcss provides a framework‑agnostic, stylesheet‑based implementation of th
   Includes light and dark mode styling.
 
 - **Tailwind Color Palette**  
-  Uses the full Tailwind CSS color system.  
-  Tailwind License:  
-  [MIT License — tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss/blob/main/LICENSE)
+  Uses the full Tailwind CSS color system.
 
 - **Radix Icons**  
-  Compatible with the Radix Icons set.  
-  Radix Icons License:  
-  MIT License — radix-ui/icons [(github.com in Bing)](https://www.bing.com/search?q="https%3A%2F%2Fgithub.com%2Fradix-ui%2Ficons%2Fblob%2Fmaster%2FLICENSE")
+  Compatible with the Radix Icons set.
 
 ## Usage
 
-1. Download `shadcn.css`  
-   Example:  
-   `[Download CSS](https://example.com/shadcn.css)`
+Include the stylesheet in your HTML:
 
-2. Include it in your HTML:
+```html
+<link
+  rel="stylesheet"
+  href="https://github.com/shadcss/shadcss/raw/main/shadcn.css"
+/>
+```
 
-   ```html
-   <link rel="stylesheet" href="shadcn.css">
-   ```
+Build interfaces using the component classes and semantic HTML.
 
-3. Build interfaces using the component classes and semantic HTML.
+## Licenses
+
+- **Shadcss**  
+  MIT License (this project)
+
+- **shadcn/ui**  
+  MIT License  
+  https://github.com/shadcn-ui/ui/blob/main/LICENSE.md
+
+- **Tailwind CSS**  
+  MIT License  
+  https://github.com/tailwindlabs/tailwindcss/blob/main/LICENSE
+
+- **Radix Icons**  
+  MIT License  
+  https://github.com/radix-ui/icons/blob/main/LICENSE
